@@ -1,4 +1,9 @@
 spring:
+    security:
+        oauth2:
+            resourceserver:
+                jwt:
+                    jwt-set-uri: http://localhost:8080/realms/RentACarMicroService/protocol/openid-connect/certs
     application:
         name: inventory-service
     datasource:
