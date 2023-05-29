@@ -1,10 +1,10 @@
 spring:
-   security:
+     security:
         oauth2:
             resourceserver:
                 jwt:
                     jwk-set-uri: http://localhost:8080/realms/RentACarMicroService/protocol/openid-connect/certs
-   application:
+    application:
         name: inventory-service
     datasource:
         password: postgres
